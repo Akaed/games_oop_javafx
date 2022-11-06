@@ -1,6 +1,6 @@
 package ru.job4j.chess.firuges.black;
 
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 import org.junit.Test;
 import ru.job4j.chess.firuges.Cell;
@@ -27,6 +27,4 @@ public class BishopBlackTest {
         Cell[] bishopEnd = {Cell.D2, Cell.E3, Cell.F4, Cell.G5};
         assertThat(bishopEnd, is(bishopDiagonal));
     }
-
-
 }
