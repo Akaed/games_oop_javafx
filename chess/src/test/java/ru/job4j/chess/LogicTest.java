@@ -42,4 +42,5 @@ public class LogicTest {
             logic.move(Cell.E1, Cell.E2));
         assertThat(exception.getMessage()).isEqualTo("Could not move by diagonal from E1 to E2");
     }
+
 }
