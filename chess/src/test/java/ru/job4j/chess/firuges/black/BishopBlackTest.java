@@ -6,9 +6,8 @@ import ru.job4j.chess.firuges.Figure;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-
-
 public class BishopBlackTest {
+
     @Test
     public void whenPositionTest() {
         Cell cell = Cell.F8;
